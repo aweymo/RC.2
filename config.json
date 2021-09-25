@@ -18,13 +18,13 @@
     "nodeLabel": "Collection"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "Id"
+    "imageAttribute": "None(Default)"
   },
   "sigma": {
     "drawingProperties": {
@@ -37,16 +37,16 @@
       "defaultLabelHoverColor": "#fff",
       "fontStyle": "bold",
       "hoverFontStyle": "bold",
-      "defaultLabelSize": 14
+      "defaultLabelSize": 16
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
+      "maxEdgeSize": 0.4,
+      "minEdgeSize": 0.3,
       "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxNodeSize": 1
     },
     "mouseProperties": {
-      "maxRatio": 20,
+      "maxRatio": 15,
       "minRatio": 0.75
     }
   }
