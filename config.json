@@ -18,13 +18,13 @@
     "nodeLabel": "Collection"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "Id"
+    "imageAttribute": "No(Default)"
   },
   "sigma": {
     "drawingProperties": {
@@ -46,7 +46,7 @@
       "maxNodeSize": 5
     },
     "mouseProperties": {
-      "maxRatio": 20,
+      "maxRatio": 15,
       "minRatio": 0.75
     }
   }
