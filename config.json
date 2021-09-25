@@ -18,13 +18,13 @@
     "nodeLabel": "Collection"
   },
   "features": {
-    "search": false,
+    "search": true,
     "groupSelectorAttribute": "Modularity Class",
     "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": true,
-    "imageAttribute": "Id"
+    "imageAttribute": "None(Default)"
   },
   "sigma": {
     "drawingProperties": {
