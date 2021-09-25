@@ -14,13 +14,13 @@
   },
   "legend": {
     "edgeLabel": "Decade",
-    "colorLabel": "Blue\u003d D, Orange\u003dA, Green\u003d Other",
+    "colorLabel": "Blue\u003d D Collection, Orange\u003d A Collection, Green\u003d Other",
     "nodeLabel": "Collection"
   },
   "features": {
     "search": true,
     "groupSelectorAttribute": "Modularity Class",
-    "hoverBehavior": "dim"
+    "hoverBehavior": false
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
@@ -40,13 +40,13 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize": 1,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 2,
+      "maxNodeSize": 4
     },
     "mouseProperties": {
-      "maxRatio": 20,
+      "maxRatio": 25,
       "minRatio": 0.75
     }
   }
